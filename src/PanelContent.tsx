@@ -52,5 +52,3 @@ export class PanelContent extends React.Component<PanelContentProps, any> {
     }
 }
 
-//exports["default"] = PanelContent;
-//module.exports = exports['default'];
