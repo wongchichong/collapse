@@ -7,8 +7,8 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { CollapsePanel } from './Panel';
-import { animation } from './openAnimationFactory';
+import { CollapsePanel } from './panel';
+import { animation } from './openanimationfactory';
 import { classnames } from '../../classnames';
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
@@ -29,12 +29,12 @@ interface CollapseProps {
     children?: any;
     prefixCls?: string;
     activeKey?: string | string[];
-    defaultActiveKey: string | string[];
-    openAnimation: Object;
-    onChange: Function;
-    accordion: boolean;
-    className: string;
-    style: Object;
+    defaultActiveKey?: string | string[];
+    openAnimation?: Object;
+    onChange?: Function;
+    accordion?: boolean;
+    className?: string;
+    style?: Object;
 }
 export class Collapse extends React.Component<CollapseProps, any> {
     displayName = 'Collapse';
