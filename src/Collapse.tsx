@@ -9,7 +9,7 @@ import * as ReactDOM from "react-dom";
 
 import { CollapsePanel } from './panel';
 import { animation } from './openanimationfactory';
-import { classnames } from '../../classnames';
+import { classnames } from 'classnames';
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 

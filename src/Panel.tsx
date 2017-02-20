@@ -3,9 +3,9 @@
 
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { classnames } from '../../classnames';
+import { classnames } from 'classnames';
 import { PanelContent } from './panelcontent';
-import { Animate } from '../../rc-animate';
+import { Animate } from 'rc-animate';
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 

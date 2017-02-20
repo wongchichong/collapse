@@ -20,10 +20,6 @@
     "url": "http://github.com/react-component/collapse/issues"
   },
   "license": "MIT",
-  "files": [
-    "lib",
-    "assets/*.css"
-  ],
   "main": "./lib/index",
   "config": {
     "port": 8002

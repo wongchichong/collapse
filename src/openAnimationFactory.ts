@@ -1,6 +1,6 @@
 'use strict';
 
-import { cssAnimation } from '../../css-animation';
+import { cssAnimation } from 'css-animation';
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
