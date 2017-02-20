@@ -50,8 +50,8 @@
     "lint"
   ],
   "dependencies": {
-    "classnames": "2.x",
-    "rc-animate": "2.x",
-    "css-animation": "1.x"
+    "classnames": "https://github.com/wongchichong/classnames",
+    "rc-animate": "https://github.com/wongchichong/animate",
+    "css-animation": "https://github.com/wongchichong/css-animation"
   }
 }
